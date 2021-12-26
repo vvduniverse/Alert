@@ -18,6 +18,7 @@ struct ContentView: View {
         .alert("Alarm for everybody", isPresented: $showingAlert) {
             Button("4LW Off", role: .destructive) { }
             Button("Soriyan", role: .cancel) { }
+            Button("Soho", role: .none) { }
         } message: {
             Text("Please be patient")
         }
